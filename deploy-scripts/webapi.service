@@ -3,7 +3,7 @@ Description=Dotnet Core WebApi Demo service
 
 [Service]  
 WorkingDirectory=/var/www/
-ExecStart= dotnet /var/www/RollDice.dll
+ExecStart=/usr/bin/dotnet /var/www/RollDice.dll
 Restart=always 
 RestartSec=10
 KillSignal=SIGINT
